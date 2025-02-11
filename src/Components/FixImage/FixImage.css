@@ -1,0 +1,11 @@
+.fix_image_container {
+    width: 100%;
+
+    background-position: center;
+    background-color: transparent !important;
+    background-size: cover;
+    object-fit: contain;
+    background-image: "../Assets/image1.jpg";
+    background-attachment: fixed;
+    padding: 0;
+}
