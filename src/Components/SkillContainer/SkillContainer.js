@@ -1,38 +1,257 @@
-import React from 'react'
-import Title from '../Title/Title';
-import { Image } from 'react-bootstrap';
+import React from "react";
+import Title from "../Title/Title";
+import { Image } from "react-bootstrap";
 
 function SkillContainer() {
-    return (
-        <>
-            <Title symbol={""} title={"skills"} discription={"jksahdkash dkhasdk haksdh kahsdkj haskdh akshdk ahsdkh akjsdh kasdh"} />
-            <div className="d-flex flex-wrap gap-4 pt-5 align-items-center justify-content-center">
-                <Image src='https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white' title='C' />
-                <Image src='https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white' title='CSS' />
-                <Image src='https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white' title='Bootstrap' />
-                <Image src='https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white' title='C++' />
-                <Image src='https://img.shields.io/badge/javascript-%2300599C.svg?style=for-the-badge&logo=javascript' title='JavaScript' />
-                <Image src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white' title='Java' />
-                <Image src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' title='HTML5' />
-                <Image src='https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white' title='GraphQL' />
-                <Image src='https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white' title='PHP' />
-                <Image src='https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white' title='Solidity' />
-                <Image src='https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7' title='Netlify' />
-                <Image src='https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white' title='NodeJS' />
-                <Image src='https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white' title='Next JS' />
-                <Image src='https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' title='React Native' />
-                <Image src='https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB' title='React' />
-                <Image src='https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white' title='WordPress' />
-                <Image src='https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34' title='Firebase' />
-                <Image src='https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white' title='MySQL' />
-                <Image src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white' title='MongoDB' />
-                <Image src='https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white' title='Postman' />
-                <Image src='https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB' title='Express.js' />
-                <Image src='https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white' title='Laravel' />
-                <Image src='https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white' title='MUI' />
-            </div>
-        </>
-    )
+  return (
+    <>
+      <Title
+        symbol={""}
+        title={"skills"}
+        discription={
+          "jksahdkash dkhasdk haksdh kahsdkj haskdh akshdk ahsdkh akjsdh kasdh"
+        }
+      />
+      <div className="d-flex flex-wrap gap-4 pt-5 align-items-center justify-content-center">
+        <Image
+          src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"
+          title="C"
+        />
+        <Image
+          src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white"
+          title="C#"
+        />
+        <Image
+          src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+          title="C++"
+        />
+        <Image
+          src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+          title="CSS3"
+        />
+        <Image
+          src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"
+          title="GraphQL"
+        />
+        <Image
+          src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+          title="HTML5"
+        />
+        <Image
+          src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+          title="Java"
+        />
+        <Image
+          src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+          title="JavaScript"
+        />
+        <Image
+          src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white"
+          title="PHP"
+        />
+        <Image
+          src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+          title="Python"
+        />
+        <Image
+          src="https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white"
+          title="Solidity"
+        />
+        <Image
+          src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+          title="TypeScript"
+        />
+        <Image
+          src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
+          title="AWS"
+        />
+        <Image
+          src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+          title="Azure"
+        />
+        <Image
+          src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
+          title="Cloudflare"
+        />
+        <Image
+          src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+          title="Firebase"
+        />
+        <Image
+          src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+          title="Google Cloud"
+        />
+        <Image
+          src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"
+          title=".NET"
+        />
+        <Image
+          src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+          title="Angular"
+        />
+        <Image
+          src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka"
+          title="Apache Kafka"
+        />
+        <Image
+          src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql"
+          title="Apollo GraphQL"
+        />
+        <Image
+          src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+          title="Bootstrap"
+        />
+        <Image
+          src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white"
+          title="Bulma"
+        />
+        <Image
+          src="https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white"
+          title="Chakra UI"
+        />
+        <Image
+          src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
+          title="Express.js"
+        />
+        <Image
+          src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37"
+          title="Expo"
+        />
+        <Image
+          src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"
+          title="FastAPI"
+        />
+        <Image
+          src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"
+          title="jQuery"
+        />
+        <Image
+          src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white"
+          title="Laravel"
+        />
+        <Image
+          src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"
+          title="NPM"
+        />
+        <Image
+          src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"
+          title="Next.js"
+        />
+        <Image
+          src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+          title="Node.js"
+        />
+        <Image
+          src="https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"
+          title="RabbitMQ"
+        />
+        <Image
+          src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+          title="React"
+        />
+        <Image
+          src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+          title="React Native"
+        />
+        <Image
+          src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+          title="Redux"
+        />
+        <Image
+          src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"
+          title="SASS"
+        />
+        <Image
+          src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101"
+          title="Socket.io"
+        />
+        <Image
+          src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+          title="Tailwind CSS"
+        />
+        <Image
+          src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white"
+          title="WordPress"
+        />
+        <Image
+          src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"
+          title="Nginx"
+        />
+        <Image
+          src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"
+          title="Amazon DynamoDB"
+        />
+        <Image
+          src="https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34"
+          title="Firebase (Alternate)"
+        />
+        <Image
+          src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"
+          title="MariaDB"
+        />
+        <Image
+          src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+          title="MongoDB"
+        />
+        <Image
+          src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
+          title="MySQL"
+        />
+        <Image
+          src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+          title="PostgreSQL"
+        />
+        <Image
+          src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white"
+          title="Redis"
+        />
+        <Image
+          src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
+          title="SQLite"
+        />
+        <Image
+          src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"
+          title="Supabase"
+        />
+        <Image
+          src="https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+          title="GitLab CI"
+        />
+        <Image
+          src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"
+          title="GitHub Actions"
+        />
+        <Image
+          src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+          title="Git"
+        />
+        <Image
+          src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+          title="GitHub"
+        />
+        <Image
+          src="https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+          title="GitLab"
+        />
+        <Image
+          src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+          title="Docker"
+        />
+        <Image
+          src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+          title="Kubernetes"
+        />
+        <Image
+          src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+          title="Postman"
+        />
+        <Image
+          src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"
+          title="Swagger"
+        />
+      </div>
+    </>
+  );
 }
 
 export default SkillContainer;
