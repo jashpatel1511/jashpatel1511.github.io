@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.418dbd4e.css",
-    "main.js": "/static/js/main.7e471556.js",
+    "main.js": "/static/js/main.6da2055f.js",
     "static/media/image1.jpg": "/static/media/image1.b8ebefddd403104468a0.jpg",
     "static/media/agevole.png": "/static/media/agevole.d7a573dd8ccc43b76e67.png",
     "index.html": "/index.html",
     "main.418dbd4e.css.map": "/static/css/main.418dbd4e.css.map",
-    "main.7e471556.js.map": "/static/js/main.7e471556.js.map"
+    "main.6da2055f.js.map": "/static/js/main.6da2055f.js.map"
   },
   "entrypoints": [
     "static/css/main.418dbd4e.css",
-    "static/js/main.7e471556.js"
+    "static/js/main.6da2055f.js"
   ]
 }

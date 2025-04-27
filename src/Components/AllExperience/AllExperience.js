@@ -10,7 +10,7 @@ function AllExperience() {
         description={
           "Designed and developed a custom order management dashboard for TM Fragrance, enabling real-time inventory tracking and automation. Optimized database performance to boost processing efficiency by 50%, handling 1,000+ daily transactions worth ₹10 million. Reduced manual errors by 30%, enhancing workflow and client satisfaction."
         }
-        descriptionHeading={"Web Developer (Remote)"}
+        descriptionHeading={"Full-Stack Web Developer (Remote)"}
       />
       <SpecialColumn
         title={"Opus Technologies"}
