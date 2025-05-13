@@ -9,9 +9,9 @@ function TopNavbar() {
   const pages = [
     "home",
     "about",
+    "experience",
     "project",
     "qualification",
-    "experience",
     "contact",
   ];
   return (

@@ -9,7 +9,7 @@ function SkillContainer() {
         symbol={""}
         title={"skills"}
         discription={
-          "jksahdkash dkhasdk haksdh kahsdkj haskdh akshdk ahsdkh akjsdh kasdh"
+          "Skilled across frontend, backend, cloud, DevOps, and database technologies using modern, industry-standard tools."
         }
       />
       <div className="d-flex flex-wrap gap-4 pt-5 align-items-center justify-content-center">
@@ -92,6 +92,10 @@ function SkillContainer() {
         <Image
           src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka"
           title="Apache Kafka"
+        />
+        <Image
+          src="https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"
+          title="RabbitMQ"
         />
         <Image
           src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql"
@@ -244,6 +248,14 @@ function SkillContainer() {
         <Image
           src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
           title="Postman"
+        />
+        <Image
+          src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"
+          title="Jenkins"
+        />
+        <Image
+          src="https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white"
+          title="Streamlit"
         />
         <Image
           src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"

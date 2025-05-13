@@ -34,7 +34,7 @@ function Root() {
         <AButton
           content={" 📃 download_resume "}
           to={
-            "https://drive.google.com/file/d/13vkjfZK03mDyO-oqXmhmvmqo-J1vbFa4/view?usp=sharing"
+            "https://drive.google.com/file/d/1MHcBpdnXF7x2Ir_aCq8GXBGmeSga6E3v/view?usp=sharing"
           }
         />
       </div>

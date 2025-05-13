@@ -47,7 +47,7 @@ function ExperienceHome() {
                 className="small_fonts"
                 dangerouslySetInnerHTML={{
                   __html:
-                    "<span class='blue_color'><u>Web Developer(Remote)</u>&nbsp;</span> Independently designed and developed a custom order management dashboard for TM Fragrance, enabling real-time inventory tracking and automated order processing. By implementing database indexing, query optimization, and caching strategies, I increased order processing efficiency by 50%, allowing the system to seamlessly <span class='sky_blue_color'>handle over 1,000 daily transactions worth ₹10 million</span>. The scalable and intuitive system significantly <span class='sky_blue_color'>reduced manual order errors by 30%</span>, enhancing client satisfaction and streamlining workflow automation.",
+                    "As a <span class='blue_color'><u>Full-Stack Developer (Remote)</u></span> at Agevole Innovation, I led the end-to-end development of scalable web platforms across sales, customer support, and media streaming domains. I built a custom order management system that streamlined operations for high-volume transactions, developed a ticketing platform that significantly improved support efficiency, and architected a video processing pipeline that automated content delivery for an OTT service. My work <span class='sky_blue_color'>improved system performance, reduced operational costs</span>, and <span class='sky_blue_color'>enhanced user experience across all platforms</span> through thoughtful design, automation, and optimization.",
                 }}
               ></p>
             </div>

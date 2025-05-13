@@ -13,11 +13,14 @@ function Footer() {
         <Link className="link yellow_color" to="/about">
           _about
         </Link>
-        <Link className="link yellow_color" to="/portfolio">
-          _projects
+        <Link className="link yellow_color" to="/experience">
+          _experience
         </Link>
-        <Link className="link yellow_color" to="/services">
-          _services
+        <Link className="link yellow_color" to="/project">
+          _project
+        </Link>
+        <Link className="link yellow_color" to="/qualification">
+          _qualification
         </Link>
         <Link className="link yellow_color" to="/contact">
           _contact
