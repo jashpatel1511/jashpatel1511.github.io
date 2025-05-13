@@ -9,7 +9,7 @@ function SkillContainer() {
         symbol={""}
         title={"skills"}
         discription={
-          "Skilled across frontend, backend, cloud, DevOps, and database technologies using modern, industry-standard tools."
+          "...skilled across frontend, backend, cloud, DevOps, and database technologies using modern, industry-standard tools."
         }
       />
       <div className="d-flex flex-wrap gap-4 pt-5 align-items-center justify-content-center">
